@@ -1,0 +1,184 @@
+body{
+    
+ background: linear-gradient(lightblue, lightyellow)  
+}
+
+#image
+{
+   width:100%;
+   max-height:250px;
+   overflow:hidden;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+
+}
+#row
+{
+    display:flex;
+    margin-top: 30px;
+    border-bottom: dotted 1px black;
+}
+#pic
+{
+    margin-left:100px;
+    margin-right:50px;
+    margin-top: 30px;
+    margin-bottom:0px;
+}
+#name
+{
+    font-weight:bold;
+    font-size:medium;
+    margin-bottom: 0px;
+}
+#ingredients
+{
+    display:flex;
+    justify-content:left;
+    align-items: flex-start;
+    font-size: small;
+    margin-right:50px;
+    width:150px;
+}
+#details
+{
+    margin-left: 100px;
+    width:auto;
+}
+#all
+{
+    height:520px;
+}
+#plus
+{
+    margin-right:200px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border: solid 1px black;
+    border-radius: 50%;
+    cursor: pointer;
+    height:25px;
+    width: 15px;
+    padding: 3px;
+    background-color: gray;
+    color:white;
+
+}
+#order
+{
+    text-align: center;
+
+}
+#Total
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left:30px;
+
+}
+#Amount
+{
+    margin-left:850px;
+}
+#cart
+{
+    display: flex;
+    justify-content:left;
+    height:50px;
+    padding-bottom: 20px;
+    border-bottom:dotted 1px black;
+    
+
+}
+.cartprice{
+    margin-left:600px;
+}
+#cartname
+{
+    margin-left: 40px;
+    width:200px;
+}
+#minus
+{
+ margin-top:20px;
+ border-radius:50%;
+ height:25px;
+ width:25px;
+ font-weight: bolder;
+ font-size: larger;
+ background-color: grey;
+ color:white;
+ border:1px solid black;
+ cursor: pointer;
+ text-align: center;
+ padding-top:5px;
+ margin-bottom: 5px;
+}
+
+.RemoveLine
+{
+    display: None;
+}
+
+#allitems{
+    height:400px;
+}
+.Qty{
+    margin-left: 50px;
+    width: 100px;
+
+}
+
+#Pay
+{
+    
+    margin-top:50px;
+    margin-left: 500px;
+    width:200px;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: large;
+    background-color: green;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#Formd
+{
+    border:solid 1px black;
+    width:350px;
+    position:fixed;
+    top:200px;
+    left:250px;
+    border-radius:10%;
+    background-color: white;
+    border: 3px solid black;
+    display: Flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+#formsubmit{
+
+    background-color: lightgreen;
+    font-weight:bold;
+    padding:20px;
+    margin-top:30px;
+    border-radius: 10%;
+    width:130px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#LabelName, #LabelEmail, #LabelAdress{
+
+    margin-top: 60px;
+    margin-left:0px;
+}
+
+#name, #mail {
+    margin-bottom:20px;
+}
