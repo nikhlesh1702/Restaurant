@@ -5,7 +5,7 @@ export const menuArray = [
         id: 0,
         price: 14,
         emoji: "pizza.png"
-    },
+    },//Data Object array
     {
         name: "Hamburger",
         ingredients: ["beef", "cheese", "lettuce"],
